@@ -51,7 +51,7 @@ public class JazzySpellChecker implements SpellCheckListener
 	static 
 	{
 
-		File dict = new File("/Users/xzhang1/Desktop/InnovationDays/dictionary.txt");
+		File dict = new File("/Users/xzhang1/InnovationDays/DocuDash/dictionary.txt");
 		try 
 		{
 			dictionaryHashMap = new SpellDictionaryHashMap(dict);

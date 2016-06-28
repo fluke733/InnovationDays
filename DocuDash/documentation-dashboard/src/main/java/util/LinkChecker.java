@@ -23,7 +23,7 @@ public class LinkChecker {
 		
 		BufferedReader br;
 		try {
-			br = new BufferedReader(new FileReader("/Users/xzhang1/Desktop/InnovationDays/invalid_link.csv"));
+			br = new BufferedReader(new FileReader("/Users/xzhang1/InnovationDays/DocuDash/invalid_link.csv"));
 			String line;
 	        while((line = br.readLine())!=null){
 	        	
